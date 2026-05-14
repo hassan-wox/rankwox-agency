@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /*.pdf$
+Disallow: /*.doc$
+
+# Allow search engines to index
+Allow: /
+
+# Specify sitemap location
+Sitemap: https://i.rankwox.com/sitemap.xml
+
+# Crawl delay to prevent server overload
+Crawl-delay: 1
+
+# Request rate (requests per second)
+Request-rate: 10/1s
